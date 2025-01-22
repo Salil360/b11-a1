@@ -409,6 +409,9 @@ footer form {
   background: #FFFFFF;
   display: flex;
   width: fit-content;
+  border-bottom: 32px;
+  
+  
 
 }
 
@@ -418,6 +421,8 @@ outline: none;
 padding: 10px ;
 height: 56px;
 width: 750px;
+border-bottom: 32px;
+
 
 }
 footer form button{
@@ -427,7 +432,17 @@ footer form button{
   
   color: #FFFFFF;
   border: 0;  
+  border-radius: 0 8px 8px 0;
 
+
+
+}
+.footerb{
+  margin: 20px 160px 80px 160px;
+  height: 395px;
+  width: 1280px;
+  background-color: #09A15C;
+  border-radius: 16px;
 
 
 }
