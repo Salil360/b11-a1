@@ -363,6 +363,7 @@ border-radius: 24px;
 }
 .donate{
   margin: 20px 160px 80px 160px;
+  max-width: 1280px;
 
 }
 .dp{
@@ -382,6 +383,7 @@ border-radius: 24px;
   gap: 24px;
   justify-content: center;
   margin-top: 32px;
+  margin-bottom: 32px;
   
   
 }
@@ -389,10 +391,43 @@ border-radius: 24px;
  background-color: #8BF9C5;
   padding: 40px;
   border-radius: 16px;
+  
 }
 .box> * {
   flex-basis: 100%;}
-.frm{
-  margin-top: 32px;
-  padding: 20px 40px;
+
+
+main input[ type="text"]{
+  height: 64px;
+ width: 100%;
+ border: 0;
+
+ 
+}
+
+footer form {
+  background: #FFFFFF;
+  display: flex;
+  width: fit-content;
+
+}
+
+footer form input{
+border: 0;
+outline: none;
+padding: 10px ;
+height: 56px;
+width: 750px;
+
+}
+footer form button{
+  padding: 11px 20px;
+   
+  background-color:#006A50;
+  
+  color: #FFFFFF;
+  border: 0;  
+
+
+
 }
